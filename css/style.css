@@ -1,0 +1,26 @@
+.sender-home img{
+    height: 65px;
+}
+.sender-home .name{
+    line-height: 65px;
+    float: right;
+}
+.sender-home tr {
+    height: 51px;
+}
+.sender-home td, .sender-home th {
+    line-height: 51px !important;
+}
+.page-text {
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+}
+.page-btns {
+    margin-left: calc(50% - 189px);
+    display: inline-block;
+    width: 378px;
+}
+.page-btn {
+    width: 150px;
+}

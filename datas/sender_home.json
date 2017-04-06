@@ -1,0 +1,44 @@
+{
+  "errorCode": "200",
+  "msg": "xxxx",
+  "result": {
+    "subinfos": [
+      {
+        "spId": "xxxx",
+        "subject": "xxx",
+        "secLevel": "xxxxx",
+        "creater": "xxxxxx",
+        "cDate": "xxx",
+        "sDate": "xxx",
+        "status": "通过"
+      },
+      {
+        "spId": "xxxx",
+        "subject": "xxx",
+        "secLevel": "xxxxx",
+        "creater": "xxxxxx",
+        "cDate": "xxx",
+        "sDate": "xxx",
+        "status": "不通过"
+      },
+      {
+        "spId": "xxxx",
+        "subject": "xxx",
+        "secLevel": "xxxxx",
+        "creater": "xxxxxx",
+        "cDate": "xxx",
+        "sDate": "xxx",
+        "status": "审核中"
+      },
+      {
+        "spId": "xxxx",
+        "subject": "xxx",
+        "secLevel": "xxxxx",
+        "creater": "xxxxxx",
+        "cDate": "xxx",
+        "sDate": "xxx",
+        "status": "草稿"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "transfer",
+  "version": "1.0.0",
+  "description": "数据传输通道",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avengang/dataTransfer.git"
+  },
+  "author": "avengang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avengang/dataTransfer/issues"
+  },
+  "homepage": "https://github.com/avengang/dataTransfer#readme",
+  "dependencies": {
+    "vue": "^2.2.6"
+  }
+}

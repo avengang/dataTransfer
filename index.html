@@ -3,67 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
 </head>
 <body>
 <div id="app">
-    <div class="sender-home">
-        <div class="panel panel-default" style="padding: 10px;">
-            <img src="imgs/logo.png" alt="" class="">
-            <span class="name">您好&nbsp;&nbsp;&nbsp;&nbsp;张三</span>
-        </div>
-        <div class="panel panel-default" style="padding: 10px;">
-            <div class="bs-example" data-example-id="panel-without-body-with-table">
-                <div class="panel panel-default">
-                    <!-- Default panel contents -->
-                    <div class="panel-heading">
-                        <button type="button" class="btn btn-primary">上传</button>
-                    </div>
 
-                    <!-- Table -->
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>序号</th>
-                            <th>主题</th>
-                            <th>安全等级</th>
-                            <th>创建人</th>
-                            <th>创建时间</th>
-                            <th>发布时间</th>
-                            <th>文档状态</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr v-for="(item, index) in list">
-                            <th scope="row">{{index}}</th>
-                            <td>{{item.subject}}</td>
-                            <td>{{item.secLevel}}</td>
-                            <td>{{item.creater}}</td>
-                            <td>{{item.cDate}}</td>
-                            <td>{{item.sDate}}</td>
-                            <td>{{item.status}}</td>
-                            <td>
-                                <button v-if="(item.status=='草稿'||item.status=='不通过')" type="button" class="btn btn-danger">删除</button>
-                            </td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-                <div class="page-btns">
-                    <button type="button" class="btn btn-default page-btn">上一页</button>
-                    <div class="page-text">第10页</div>
-                    <button type="button" class="btn btn-default page-btn" disabled>下一页</button>
-                </div>
-        </div>
-    </div>
 </div>
 <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
 <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="js/lib/vue.js"></script>
 <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="js/app.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
